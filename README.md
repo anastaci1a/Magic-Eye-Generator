@@ -1,4 +1,4 @@
-## Magic-Eye
+## Magic-Eye-Generator
 ### An animated "magic eye" (autostereogram) generator, written entirely in processing/java
 
 ---
