@@ -126,19 +126,19 @@ void setup() {
       - Textures/moon.png
   */
   
+  // generate magic eye
+  magicEye.generate();
+  
+  /*
+    if you want more than one magic eye to generate in one execution, create
+    more MagicEye objects, set their parameters, and add another call to
+    .generate() on your new MagicEye object here.
+  */
+  
   
   /* ---------------------- DON'T EDIT THIS: ---------------------- */
   /* (unless you know what you're doing)                            */
   
   colorMode(HSB, 360, 100, 100, 255);
-  
-  /*
-    if you want more than one magic eye to generate in one execution, create
-    more MagicEye objects, set their parameters, and add another call to
-    .generate() on your new MagicEye object here (before the exit function).
-  */
-  
-  magicEye.generate();
-  
   exit();
 }
