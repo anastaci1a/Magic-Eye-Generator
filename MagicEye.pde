@@ -2,7 +2,7 @@
 static class DEFAULTS {
   // additional config - not available through .addConfig(...)
   static final float HORI_TILES = 8.5;     // amount of horizontal tiles (autoscale)
-  static final float POPOUT = 0.5;         // (0 < value <= 1) amount magic eye "pops out"
+  static final float POPOUT = 0.2;         // (0 < value <= 1) amount magic eye "pops out"
   static final long  ALGORITHM_SEED = -1;  // set to -1 for a random seed every algorithmic texture generation
                                            // (set to any other number for an exact seed every algorithmic texture generation)
   
