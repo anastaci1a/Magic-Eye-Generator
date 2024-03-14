@@ -1,9 +1,4 @@
-MagicEye magicEye;
-
-// ***
 void setup() {
-  magicEye = new MagicEye();
-  
   /*
     
     MagicEye config parameters:
@@ -104,6 +99,9 @@ void setup() {
   
   /* ------------------------- EDIT THIS: ------------------------- */
   
+  // create MagicEye object
+  MagicEye magicEye = new MagicEye();
+  
   // load depth map file(s)
   magicEye.addConfig(CONFIG.DEPTH_MAP_FILE, "Depth Maps/cube.png");
   /*
@@ -136,10 +134,5 @@ void setup() {
     .generate() on your new MagicEye object here.
   */
   
-  
-  /* ---------------------- DON'T EDIT THIS: ---------------------- */
-  /* (unless you know what you're doing)                            */
-  
-  colorMode(HSB, 360, 100, 100, 255);
   exit();
 }

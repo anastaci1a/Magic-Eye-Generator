@@ -111,7 +111,9 @@ class MagicEye {
   
   
   // main execution
-  void generate() {
+  void generate() {  
+    colorMode(HSB, 360, 100, 100, 255);
+    
     int _steps = 1;
     int _stepCount = 4;
     
