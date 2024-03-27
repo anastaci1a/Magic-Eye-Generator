@@ -10,7 +10,7 @@
 
 ## How to Use It
 
-Download the latest version of Processing [here](https://processing.org/download), open `Main.pde`, and add your own custom configurations in order to generate your magic eyes (All documentation of the configurations can be found in Main.pde).
+Download the latest version of Processing [here](https://processing.org/download), open `Main.pde`, and add your own custom configurations in order to generate your magic eyes (All documentation of the configurations can be found in `Main.pde`).
 
 ---
 
