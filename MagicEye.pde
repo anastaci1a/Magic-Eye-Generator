@@ -166,8 +166,8 @@ class MagicEye {
         _infoMessage += "> ffmpeg [run this command in the root directory of your project (you must have ffmpeg installed)]:\n";
         _infoMessage += "  - " + _ffmpegCommand + "\n";
         _infoMessage += "> use a website [upload all frames to any of these websites and export]:\n";
-        _infoMessage += "  - https://ezgif.com/maker\n";
-        _infoMessage += "  - https://imgflip.com/gif-maker\n";
+        _infoMessage += "  - https://www.ezgif.com/maker\n";
+        _infoMessage += "  - https://www.imgflip.com/gif-maker\n";
         _infoMessage += "  - https://www.freeconvert.com/gif-converter";
         statusMessage("generate", _infoMessage);
       }

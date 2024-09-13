@@ -5,7 +5,7 @@ void setup() {
     
     --- depth map ---
     
-    > CONFIG.DEPTH_MAP (0): [REQUIRED]
+    > CONFIG.DEPTH_MAP_FILE (0): [REQUIRED]
       - local filename of depth map
         (i.e. "depth-map.png")
       - depth map image(s) will always be automatically centered
@@ -19,7 +19,6 @@ void setup() {
         (i.e. "2x2", defaults to autoscaling if not set)
       - note: autoscaling automatically sets the image sizing to best fit the resolution (maintains aspect ratio)
     
-    
     --- texture ---
     
     > CONFIG.TEXTURE_MODE (2):
@@ -29,7 +28,7 @@ void setup() {
     > CONFIG.TEXTURE_FILE (3): [REQUIRED (Only applicable when CONFIG.TEXTURE_MODE is set to TEXTURE_MODE.FILE)]
       - if CONFIG.TEXTURE_MODE is set to TEXTURE_MODE.FILE, use this parameter to set the filename of your texture image
         (i.e. "texture.png")
-      - as mentioned in CONFIG.DEPTH_MAP, you are able to add hashtags (#) representing the number of digits for the indices of each frame (frames start at 0)
+      - as mentioned in CONFIG.DEPTH_MAP_FILE, you are able to add hashtags (#) representing the number of digits for the indices of each frame (frames start at 0)
         (i.e. "frame-###.png" >> "frame-000.png", "frame-001.png", ... "frame-999.png")
         - note: if depth map and texture frame counts are not aligned, the depth map will take precedent and loop smoothly,
                 while the texture frames will jump to the first frame early at the end of the depth map loop
