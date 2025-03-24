@@ -3,7 +3,7 @@
 
 ---
 
-> An example of what this program can generate:
+> An example of what this program can generate (relax your eyes!):
 ![magic-eye-vortex](https://github.com/anastaci1a/Magic-Eye/assets/48846277/cf9ecc7d-7930-4968-ab23-1f0168a79da7)
 
 ---
